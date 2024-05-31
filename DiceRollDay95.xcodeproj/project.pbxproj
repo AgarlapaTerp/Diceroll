@@ -11,6 +11,9 @@
 		75ADC1852BF13BE800EA368C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ADC1842BF13BE800EA368C /* ContentView.swift */; };
 		75ADC1872BF13BE900EA368C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ADC1862BF13BE900EA368C /* Assets.xcassets */; };
 		75ADC18A2BF13BE900EA368C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ADC1892BF13BE900EA368C /* Preview Assets.xcassets */; };
+		75ADC1912BF13DD800EA368C /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ADC1902BF13DD800EA368C /* DiceView.swift */; };
+		75ADC1932BF13DE200EA368C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ADC1922BF13DE200EA368C /* ResultsView.swift */; };
+		75ADC1952BF14B3000EA368C /* UserDefaultFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ADC1942BF14B3000EA368C /* UserDefaultFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		75ADC1842BF13BE800EA368C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75ADC1862BF13BE900EA368C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75ADC1892BF13BE900EA368C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75ADC1902BF13DD800EA368C /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		75ADC1922BF13DE200EA368C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		75ADC1942BF14B3000EA368C /* UserDefaultFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				75ADC1822BF13BE800EA368C /* DiceRollDay95App.swift */,
 				75ADC1842BF13BE800EA368C /* ContentView.swift */,
+				75ADC1902BF13DD800EA368C /* DiceView.swift */,
+				75ADC1922BF13DE200EA368C /* ResultsView.swift */,
+				75ADC1942BF14B3000EA368C /* UserDefaultFunctions.swift */,
 				75ADC1862BF13BE900EA368C /* Assets.xcassets */,
 				75ADC1882BF13BE900EA368C /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ADC1952BF14B3000EA368C /* UserDefaultFunctions.swift in Sources */,
 				75ADC1852BF13BE800EA368C /* ContentView.swift in Sources */,
+				75ADC1932BF13DE200EA368C /* ResultsView.swift in Sources */,
+				75ADC1912BF13DD800EA368C /* DiceView.swift in Sources */,
 				75ADC1832BF13BE800EA368C /* DiceRollDay95App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
